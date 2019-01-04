@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }
+    ],
+    "syntax-dynamic-import",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-decorators-legacy"
+  ]
+}
